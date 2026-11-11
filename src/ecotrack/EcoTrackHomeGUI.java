@@ -124,6 +124,9 @@ public class EcoTrackHomeGUI extends javax.swing.JFrame {
 
     private void btnActivityTrackerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActivityTrackerActionPerformed
         // TODO add your handling code here:
+        new activitytracker.ActivityTrackerGUI().setVisible(true);
+        this.dispose();
+       
     }//GEN-LAST:event_btnActivityTrackerActionPerformed
 
     private void btnWasteManagerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnWasteManagerActionPerformed
@@ -139,6 +142,8 @@ public class EcoTrackHomeGUI extends javax.swing.JFrame {
 
     private void btnGreenEventsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGreenEventsActionPerformed
         // TODO add your handling code here:
+        new communitygreenevents.GreenEventsGUI().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_btnGreenEventsActionPerformed
 
     /**
